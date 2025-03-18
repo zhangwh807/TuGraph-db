@@ -5,6 +5,11 @@
 # Required
 version: 2
 
+redirects:
+  - from: /*
+    to: https://tugraph.tech/
+    type: prefix
+
 # Set the version of Python and other tools you might need
 build:
   os: ubuntu-20.04
