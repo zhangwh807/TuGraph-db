@@ -32,7 +32,7 @@ html_theme = 'sphinx_rtd_theme'
 
 
 html_js_files = [
-    './redirect.js',
+    'js/redirect.js',
 ]
 
 read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
