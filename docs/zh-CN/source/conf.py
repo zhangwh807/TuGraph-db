@@ -30,6 +30,11 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 
+
+html_js_files = [
+    './redirect.js',
+]
+
 read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 if read_the_docs_build:
     subprocess.run(shlex.split("wget https://tugraph-web.oss-cn-beijing.aliyuncs.com/tugraph/doc_deps/liblgraph_python_api.so"))
